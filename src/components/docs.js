@@ -54,7 +54,7 @@ export default function Docs({
         <div className='docs-main'>
             <h1>Docs App</h1>
 
-            <button
+            <button style={{borderRadius:'12px'}}
                 className='add-docs'
                 onClick={handleOpen}
             >
